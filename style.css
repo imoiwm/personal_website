@@ -1,8 +1,7 @@
-/* try display: inline; for your different links (e.g. GitHub, LinkedIn, etc.) */
-
 body {
-	/*background-color: #121212;*/
-	background-color: #EEEEEE;
+	font-family: "Questrial", sans-serif;
+	background-color: #212121;
+	color: #FFFFFF;
 	overflow: hidden;
 
  /* Following code taken from GeeksforGeeks
@@ -22,51 +21,64 @@ body {
 }
 /* End of used code */
 
-footer {
-	font-family: "Didact Gothic", sans-serif;
-	position: fixed;
-	bottom: 5%;
-	left: 50%;
-	font-size: 1.6vmin;
-	transform: translate(-50%,-50%);
+.desc {
+	padding-top: 15vh;
 }
 
 h1 {
 	position: relative;
-	text-transform: uppercase;
-	font-size: 9.4vmin;
-	font-family: "Didact Gothic", sans-serif;
-	padding-top: 4%;
-	left: 35vmin;
+	text-align: center;
+	font-size: 14vmin;
+	font-family: "Lobster Two", cursive;
+	margin: 0;
 }
 
-.homeimg {
-	left: 35vmin;
+h2 {
+	margin: 0;
 	position: relative;
-	width: 20%;
-	height: 20%;
+	text-align: center;
+	font-size: 5vmin;
+	opacity: 70%;
+	font-family: "Nunito Sans", sans-serif;
 }
 
-.pages {
-	font-family: "Didact Gothic", sans-serif;
-	font-size: 5.2vmin;
-	color: lightslategrey;
-	display: inline;
-	position: fixed;
-	left: 50%;
-	top: 37%;
-	transform: translate(-50%);
+.pdf {
+	position: relative;
+	text-align: center;
+	padding-top: 7vh;
+	text-decoration: none;
+	top: 50%;
+}
+
+button {
+	border: 1px solid grey;
+	background-color: #212121;
+	color: lightgrey;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 2vmin;
+	border-radius: 10px;
+	width: 10vw;
+	height: 7vh;
+}
+
+button:hover {
+	color: orangered;
+	border-color: orangered;
+	background-color: #313131;
+	transition: 0.2s;
+	transition-delay: 0.01s;
 }
 
 .socials {
-	font-family: "Didact Gothic", sans-serif;
+	position: relative;
+	text-align: center;
+	padding-top: 3vh;
 	font-size: 7.2vmin;
-	color: lightslategrey;
-	display: inline;
-	position: fixed;
-	left: 50%;
-	top: 70%;
-	transform: translate(-50%);
+}
+
+a {
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
 a:hover {
@@ -75,75 +87,11 @@ a:hover {
 	transition-delay: 0.01s;
 }
 
-a {
-	text-decoration: none;
-	color: lightslategrey;
-}
-
-li {
-	list-style-type: none;
-}
-
-.perspective-text {
-	color: orangered;
-	font-family: "Didact Gothic", sans-serif;
-	font-size: 40px;
-	font-weight: 900;
-	letter-spacing: -2px;
-	text-transform: uppercase;
-	padding-left: 140px;
-	padding-bottom: 25px;
-	text-shadow: -2px 2px darkred;
-}
-
-.perspective-line {
-	height: 50px;
-	overflow: hidden;
+footer {
 	position: relative;
+	text-align: center;
+	padding-top: 20vh;
+	font-family: "Lobster Two", cursive;
+	font-size: 1.6vmin;
+	opacity: 40%;
 }
-
-.perspective-line:nth-child(odd) {
-	transform: skew(60deg, -30deg) scaleY(0.667);
-}
-
-.perspective-line:nth-child(even) {
-	transform: skew(0deg, -30deg) scaleY(1.333);
-}
-
-p {
-	margin: 0;
-	height: 50px;
-	line-height: 50px;
-	transition:  all 0.5s ease-in-out;
-}
-
-.perspective-text:hover p{
-	transform: translate(0, -50px);
-}
-
-.perspective-line:nth-child(1) {
-	left: 29px;
-}
-
-.perspective-line:nth-child(2) {
-	left: 58px;
-}
-
-.perspective-line:nth-child(3) {
-	left: 87px;
-}
-.perspective-line:nth-child(4) {
-	left: 116px;
-}
-
-/*.redirects {
-	font-family: "Didact Gothic", sans-serif;
-	font-size: 50px;
-	font-weight: 200;
-	letter-spacing: ;
-	text-transform: uppercase;
-	float: right;
-	top: -150px;
-	vertical-align: middle;
-	padding-right: 200px;
-}*/
