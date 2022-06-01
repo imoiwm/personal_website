@@ -50,7 +50,6 @@ h2 {
 
 /* careful about the way this div was centered */
 .aboutme {
-	padding-top: 80vh;
 	max-width: 700px;
 	margin: auto;
 	position: relative;
@@ -92,6 +91,27 @@ button:hover {
 	text-align: center;
 	padding-top: 3vh;
 	font-size: 7.2vmin;
+}
+
+.reveal {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.activate {
+		animation: slide-in 0.5s 1;
+	}
+}
+
+@keyframes slide-in {
+	0% {
+		transform: translate(-30px);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
 }
 
 a {
