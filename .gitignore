@@ -1,4 +1,8 @@
-Ivan_Mo_Resume.pdf
+public/
+.next/
+.eslintrc.json
+tsconfig.json
+wip/
 commentdump.txt
 roadmap-and-ideas.txt
 node_modules/
