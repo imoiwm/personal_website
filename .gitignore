@@ -1,6 +1,11 @@
-Ivan_Mo_Resume.pdf
+public/
+wip/
+CNAME
+tsconfig.json
 commentdump.txt
 roadmap-and-ideas.txt
 node_modules/
 package.json
 package-lock.json
+.eslintrc.json
+.next/
