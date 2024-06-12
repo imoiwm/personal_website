@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(10, 10, 10);
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+}
+    
+
+.link {
+    color: white;
+    display: block;
+    padding: 0px;
+    font-size: clamp(2em, 8vw, 7em);
+    padding: clamp(0.25em, 1vw, 1em) clamp(1em, 4vw, 4em);
+    width: fit-content;
+    text-decoration: none;
+}
