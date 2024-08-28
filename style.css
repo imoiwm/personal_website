@@ -78,6 +78,17 @@ footer {
     color: #c4b794;
 }
 
+.back {
+    color: #FAF9F6;
+    font-size: clamp(.7em, 1.6vw, 1.6em);
+    padding: clamp(0.25em, 1vw, 1em);
+    text-decoration: none;
+}
+
+.back:hover {
+    color: #c4b794;
+}
+
 .personal {
     color: #FAF9F6;
     display: block;
